@@ -1,0 +1,63 @@
+.footer {
+  width: 100%;
+  height: 10rem;
+  background-color: #313232;
+  margin-top: 3rem;
+  position: absolute;
+}
+.footer p {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #9b9b9b;
+}
+.footer .contaner {
+  width: 80rem;
+  margin-left: 8rem;
+  margin-top: 3rem;
+}
+.footer .search {
+  width: 80rem;
+  height: 2.5rem;
+  display: flex;
+}
+.footer .search input {
+  width: 45rem;
+  height: 2.5rem;
+  position: absolute;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background-color: black;
+  color: whitesmoke;
+  border: 1px;
+  outline: none;
+}
+.footer .search button {
+  position: absolute;
+  width: 6.5rem;
+  height: 2rem;
+  left: 46rem;
+  border-radius: 1.5rem;
+  margin-top: 0.25rem;
+  margin-right: 1.5rem;
+  background-color: rgb(64, 130, 215);
+  color: whitesmoke;
+  border: 1px;
+}
+.footer .search .conect {
+  display: flex;
+  width: 20rem;
+  margin-left: auto;
+  align-items: center;
+}
+.footer .search a {
+  height: 2rem;
+  background-color: black;
+  width: 2rem;
+  padding: 0.5rem;
+  margin-left: 0.75rem;
+  border-radius: 1rem;
+}
+.footer .search h4 {
+  color: rgb(64, 130, 215);
+}/*# sourceMappingURL=footer.css.map */

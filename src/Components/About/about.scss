@@ -1,0 +1,38 @@
+.about{
+    width: 100%;
+    height: 20rem;
+    background-color: #313232;
+    position: absolute;
+    b{
+        color: #c3c3c3;
+    }
+    .contaner{
+        width: 80rem;
+        height: 15rem;
+        margin-top: 5rem;
+        margin-left: 8rem;
+        display: flex;
+    }
+    .infomation{
+        width: 25rem;
+        margin-left: 1rem;
+        display: flex;
+    }
+    .num{
+        margin-right: auto;
+        font-size: 1.5rem;
+        color: rgb(64, 130, 215);
+    }
+    .latter{
+        width: 20rem;
+    }
+    p{
+        font-size: 0.85rem;
+        color: #9b9b9b;
+    }
+    img{
+        width: 2rem;
+        height: 1rem;
+        margin-top: 2rem;
+    }
+}

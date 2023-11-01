@@ -1,0 +1,48 @@
+.live{
+    margin-top: 15rem;
+    width: 80rem;
+    margin-left: 8rem;
+    height: 25rem;
+    .lives{
+        color: #c3c3c3;
+        font-size: 2rem;
+    }
+    .video{
+        width: 80rem;
+        height: 20rem;
+        display: flex;
+    }
+    .video-live{
+        width: 20rem;
+        height: 20rem;
+        .play{
+            width: 18rem;
+            height: 12rem;
+            margin-left: 0.25rem;
+            margin-top: 1rem;
+            img{
+                width: 19rem;
+                height: 12rem;
+                border-radius: 1rem;
+                position: absolute;
+            }
+            .buttonplay{
+                width: 3rem;
+                height: 3rem;
+                margin-top: 4.5rem;
+                margin-left: 7.5rem;
+            }
+        }
+        p{
+            color: #9b9b9b;
+            font-size: 0.85rem;
+            margin-left: 0.5rem;
+            margin-top: 0.5rem;
+        }
+        .city{
+            color: #c3c3c3;
+            font-size: 1.5rem;
+        }
+    }
+    
+}
