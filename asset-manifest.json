@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Sovanrath/weather.github.io.git/static/css/main.5f0df65e.css",
-    "main.js": "/Sovanrath/weather.github.io.git/static/js/main.9d4efb9d.js",
-    "static/media/img9.jpg": "/Sovanrath/weather.github.io.git/static/media/img9.4373b4ee3287400e40fc.jpg",
-    "static/media/bg.jpg": "/Sovanrath/weather.github.io.git/static/media/bg.81b5349c69325088ded9.jpg",
-    "static/media/img6.jpg": "/Sovanrath/weather.github.io.git/static/media/img6.23b8e705331eb9137ac4.jpg",
-    "static/media/img7.jpg": "/Sovanrath/weather.github.io.git/static/media/img7.d89e33048e68701b9d1f.jpg",
-    "static/media/live2.jpg": "/Sovanrath/weather.github.io.git/static/media/live2.23268916c2c472e01466.jpg",
-    "static/media/live3.jpg": "/Sovanrath/weather.github.io.git/static/media/live3.2aaf945c2a50f54930b7.jpg",
-    "static/media/icon-7.svg": "/Sovanrath/weather.github.io.git/static/media/icon-7.df22bde0ddd3752e7cca85c002d09b55.svg",
-    "static/media/icon-3.svg": "/Sovanrath/weather.github.io.git/static/media/icon-3.4e7fca7372538b93dd35766cab584d42.svg",
-    "static/media/icon-1.svg": "/Sovanrath/weather.github.io.git/static/media/icon-1.300759c5577be55501c2b08a40a0fb9d.svg",
-    "static/media/icon-4.svg": "/Sovanrath/weather.github.io.git/static/media/icon-4.53fab7841b86ba57054be78612292d1f.svg",
-    "static/media/icon-6.svg": "/Sovanrath/weather.github.io.git/static/media/icon-6.1d4465afc68f11982ac1a4bb4d34e802.svg",
-    "static/media/icon-5.svg": "/Sovanrath/weather.github.io.git/static/media/icon-5.6f571e1b293aa1e8fa89d23ae0b03b16.svg",
-    "static/media/icon-2.svg": "/Sovanrath/weather.github.io.git/static/media/icon-2.d20410c2911e8b13afdd69f0e7c20110.svg",
-    "index.html": "/Sovanrath/weather.github.io.git/index.html",
-    "main.5f0df65e.css.map": "/Sovanrath/weather.github.io.git/static/css/main.5f0df65e.css.map",
-    "main.9d4efb9d.js.map": "/Sovanrath/weather.github.io.git/static/js/main.9d4efb9d.js.map"
+    "main.css": "/weather/static/css/main.9834ac6c.css",
+    "main.js": "/weather/static/js/main.7c24a464.js",
+    "static/media/img9.jpg": "/weather/static/media/img9.4373b4ee3287400e40fc.jpg",
+    "static/media/bg.jpg": "/weather/static/media/bg.81b5349c69325088ded9.jpg",
+    "static/media/img6.jpg": "/weather/static/media/img6.23b8e705331eb9137ac4.jpg",
+    "static/media/img7.jpg": "/weather/static/media/img7.d89e33048e68701b9d1f.jpg",
+    "static/media/live2.jpg": "/weather/static/media/live2.23268916c2c472e01466.jpg",
+    "static/media/live3.jpg": "/weather/static/media/live3.2aaf945c2a50f54930b7.jpg",
+    "static/media/icon-7.svg": "/weather/static/media/icon-7.df22bde0ddd3752e7cca85c002d09b55.svg",
+    "static/media/icon-3.svg": "/weather/static/media/icon-3.4e7fca7372538b93dd35766cab584d42.svg",
+    "static/media/icon-1.svg": "/weather/static/media/icon-1.300759c5577be55501c2b08a40a0fb9d.svg",
+    "static/media/icon-4.svg": "/weather/static/media/icon-4.53fab7841b86ba57054be78612292d1f.svg",
+    "static/media/icon-6.svg": "/weather/static/media/icon-6.1d4465afc68f11982ac1a4bb4d34e802.svg",
+    "static/media/icon-5.svg": "/weather/static/media/icon-5.6f571e1b293aa1e8fa89d23ae0b03b16.svg",
+    "static/media/icon-2.svg": "/weather/static/media/icon-2.d20410c2911e8b13afdd69f0e7c20110.svg",
+    "index.html": "/weather/index.html",
+    "main.9834ac6c.css.map": "/weather/static/css/main.9834ac6c.css.map",
+    "main.7c24a464.js.map": "/weather/static/js/main.7c24a464.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f0df65e.css",
-    "static/js/main.9d4efb9d.js"
+    "static/css/main.9834ac6c.css",
+    "static/js/main.7c24a464.js"
   ]
 }
