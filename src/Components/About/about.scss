@@ -35,4 +35,18 @@
         height: 1rem;
         margin-top: 2rem;
     }
+    @media screen and (max-width: 768px){
+        .contaner{
+            height: max-content;
+            margin-left: 0;
+            width: 100%;
+            background-color: #313232;
+            .infomation{
+                width: 30%;
+                .latter{
+                    margin-left: 0.5rem;
+                }
+            }
+        }
+    }
 }

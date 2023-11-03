@@ -13,6 +13,9 @@
   height: 20rem;
   display: flex;
 }
+.live .video-list {
+  display: flex;
+}
 .live .video-live {
   width: 20rem;
   height: 20rem;
@@ -44,4 +47,22 @@
 .live .video-live .city {
   color: #c3c3c3;
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .live {
+    margin-top: 30rem;
+    width: 100%;
+    margin-left: 5%;
+    height: 45rem;
+  }
+  .live p {
+    margin-left: 5%;
+  }
+  .live .video {
+    flex-direction: column;
+  }
+  .live .video-live {
+    margin-left: 2rem;
+  }
 }/*# sourceMappingURL=live.css.map */

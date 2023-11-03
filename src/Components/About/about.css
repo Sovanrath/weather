@@ -35,4 +35,19 @@
   width: 2rem;
   height: 1rem;
   margin-top: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .about .contaner {
+    height: -moz-max-content;
+    height: max-content;
+    margin-left: 0;
+    width: 100%;
+    background-color: #313232;
+  }
+  .about .contaner .infomation {
+    width: 30%;
+  }
+  .about .contaner .infomation .latter {
+    margin-left: 0.5rem;
+  }
 }/*# sourceMappingURL=about.css.map */

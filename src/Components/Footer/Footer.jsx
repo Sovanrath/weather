@@ -13,15 +13,15 @@ const Footer = () => {
                     <div className="search">
                         <input type="text" name='city' placeholder='Find your location...' />
                         <button>Subscribe</button>
-                        <div className="conect">
-                           <a href="#"> <h4><TfiFacebook/></h4></a>
-                            <a href="#"><h4><SiTwitter/></h4></a>
-                            <a href="#"><h4><TfiGoogle/></h4></a>
-                            <a href="#"><h4><SiPinterest/></h4></a>
-                        </div>
                     </div>
-                    <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                    <div className="conect">
+                        <a href="#"> <h4><TfiFacebook/></h4></a>
+                        <a href="#"><h4><SiTwitter/></h4></a>
+                        <a href="#"><h4><TfiGoogle/></h4></a>
+                        <a href="#"><h4><SiPinterest/></h4></a>
+                    </div>
                 </div>
+                <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
             </div>
         </footer>
     )

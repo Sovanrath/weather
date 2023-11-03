@@ -74,4 +74,34 @@
         width: 9rem;
         height: 6rem;
     }
+    
+}
+@media screen and (max-width: 768px){
+    .more{
+        width: 100%;
+        margin-left: 0;
+        height: 80rem;
+
+        .contaner{
+            width: 100%;
+            margin-left: 10%;
+            position: absolute;
+            margin-top: 20%;
+            flex-direction: column;
+            .application{
+                width: 80%;
+                margin-left: 15%;
+            }
+            .analyssis{
+                margin-top: 1rem;
+                width: 80%;
+                margin-left: 15%;
+            }
+            .awesome{
+                margin-top: 1rem;
+                width: 80%;
+                margin-left: 15%;
+            }
+        }
+    }
 }

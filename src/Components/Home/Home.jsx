@@ -18,7 +18,8 @@ const Home = () => {
         celcius: 10,
         name: '',
         humidity: 10,
-        speed: 2
+        speed: 2,
+        temp_min: 0
     
     })
     const [name, setName] = useState('');
@@ -29,7 +30,9 @@ const Home = () => {
             axios.get(apiUrl)
             .then(res => {
                 console.log(res.data);
-                setData({...data, celcius: res.data.main.temp, name: res.data.name, humidity: res.data.main.humidity, speed: res.data.wind.speed })
+                setData({...data, celcius: res.data.main.temp, name: res.data.name,
+                        temp_min: res.data.coord.lon, temp_max: res.data.coord.lat,
+                        humidity: res.data.main.humidity, speed: res.data.wind.speed })
         })
         .catch( err => console.log(err));
         }
@@ -74,52 +77,54 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="dayes">
-                        <p className='otherdays'>Tuesday</p>
-                        <div className="weather">
-                            <img src={tuesday} alt="" />
-                            <h1>23°C</h1>
-                            <p>18°C</p>
+                    <div className="threeday">
+                        <div className="dayes">
+                            <p className='otherdays'>Tuesday</p>
+                            <div className="weather">
+                                <img src={tuesday} alt="" />
+                                <h1>{data.temp_min}°C</h1>
+                                <p>18°</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="days">
-                        <p className='otherday'>Wednesday</p>
-                        <div className="weather">
-                            <img src={wednesday} alt="" />
-                            <h1>23°C</h1>
-                            <p>18°C</p>
+                        <div className="days">
+                            <p className='otherday'>Wednesday</p>
+                            <div className="weather">
+                                <img src={wednesday} alt="" />
+                                <h1>{data.temp_max}°C</h1>
+                                <p>18°</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="dayes">
-                        <p className='otherdays'>Thursday</p>
-                        <div className="weather">
-                            <img src={thursday} alt="" />
-                            <h1>23°C</h1>
-                            <p>18°C</p>
+                        <div className="dayes">
+                            <p className='otherdays'>Thursday</p>
+                            <div className="weather">
+                                <img src={thursday} alt="" />
+                                <h1>{data.temp_min}°C</h1>
+                                <p>18°</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="days">
-                        <p className='otherday'>Friday</p>
-                        <div className="weather">
-                            <img src={friday} alt="" />
-                            <h1>23°C</h1>
-                            <p>18°C</p>
+                        <div className="days">
+                            <p className='otherday'>Friday</p>
+                            <div className="weather">
+                                <img src={friday} alt="" />
+                                <h1>{data.temp_max}°C</h1>
+                                <p>18°</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="dayes">
-                        <p className='otherdays'>Saturday</p>
-                        <div className="weather">
-                            <img src={saturday} alt="" />
-                            <h1>23°C</h1>
-                            <p>18°C</p>
+                        <div className="dayes">
+                            <p className='otherdays'>Saturday</p>
+                            <div className="weather">
+                                <img src={saturday} alt="" />
+                                <h1>{data.temp_min}°C</h1>
+                                <p>18°</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="days">
-                        <p className='otherdaye'>Sunday</p>
-                        <div className="weather">
-                            <img src={sunday} alt="" />
-                            <h1>23°C</h1>
-                            <p>18°C</p>
+                        <div className="days">
+                            <p className='otherdaye'>Sunday</p>
+                            <div className="weather">
+                                <img src={sunday} alt="" />
+                                <h1>{data.temp_max}°C</h1>
+                                <p>18°</p>
+                            </div>
                         </div>
                     </div>
                 </div>

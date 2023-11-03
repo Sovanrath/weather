@@ -16,7 +16,7 @@ function App () {
         <Live/>
         <About/>
         <More/>
-        <Footer/>
+        <Footer/> 
         </>
     )
 }

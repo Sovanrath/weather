@@ -12,6 +12,9 @@
         height: 20rem;
         display: flex;
     }
+    .video-list{
+        display: flex;
+    }
     .video-live{
         width: 20rem;
         height: 20rem;
@@ -45,4 +48,21 @@
         }
     }
     
+}
+@media screen and (max-width: 768px){
+    .live{
+        margin-top: 30rem;
+        width: 100%;
+        margin-left: 5%;
+        height: 45rem;
+        p{
+            margin-left: 5%;
+        }
+        .video{
+            flex-direction: column;
+        }
+        .video-live{
+            margin-left: 2rem;
+        }
+    }
 }

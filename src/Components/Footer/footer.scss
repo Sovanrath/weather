@@ -8,39 +8,42 @@
         margin-top: 1rem;
         font-size: 0.85rem;
         color: #9b9b9b;
+        margin-left: 10%;
     }
     .contaner{
         width: 80rem;
         margin-left: 8rem;
         margin-top: 3rem;
-    }
-    .search{
-        width: 80rem;
-        height: 2.5rem;
         display: flex;
-        input{
-            width: 45rem;
+        .search{
+            width: 50%;
             height: 2.5rem;
-            position: absolute;
-            font-size: 1rem;
-            padding: 1rem;
+            display: flex;
             border-radius: 1.5rem;
             background-color: black;
-            color: whitesmoke;
-            border: 1px;
-            outline: none;
-        }
-        button{
-            position: absolute;
-            width: 6.5rem;
-            height: 2rem;
-            left: 46rem;
-            border-radius: 1.5rem;
-            margin-top: 0.25rem;
-            margin-right: 1.5rem;
-            background-color: rgb(64, 130, 215);
-            color: whitesmoke;
-            border: 1px;
+            input{
+                width: 90%;
+                height: 2.5rem;
+                // position: absolute;
+                font-size: 1rem;
+                padding: 1rem;
+                border-radius: 1.5rem;
+                background-color: black;
+                color: whitesmoke;
+                border: 1px;
+                outline: none;
+            }
+            button{
+                // position: absolute;
+                width: 20%;
+                height: 2rem;
+                border-radius: 1.5rem;
+                margin-top: 0.25rem;
+                background-color: rgb(64, 130, 215);
+                color: whitesmoke;
+                border: 1px;
+                margin-right: 2%;
+            }
         }
         .conect{
             display: flex;
@@ -58,6 +61,24 @@
         }
         h4{
             color: rgb(64, 130, 215);
+        }
+    }
+    
+    @media screen and (max-width: 768px){
+        .contaner{
+            width: 100%;
+            margin-left: 5%;
+        }
+        .search{
+            background-color: aqua;
+            width: 50%;
+            input{
+                width: 45%;
+            }
+            button{
+                position: relative;
+                margin: 0;
+            }
         }
     }
 }
